@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/harbour-city-3928590_1920.jpg) no-repeat center center/ cover;
+}
+.container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50%;
+    min-height: auto;
+    padding: 1.2rem;
+    background: linear-gradient(to right, #eb7272, #ecfc0b, #519b0c);
+    box-shadow: 0 0 3px;
+    border-radius: 1rem;
+    position: relative;
+}
+header{
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+.game-container{
+    position: absolute;
+    right: .2rem;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.rows-icon{
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+.row i{
+    text-align: center;
+    margin:0 1rem;
+    background-color: #9c8e0a;
+    font-size: 3rem;
+    border-radius: 50%;
+    padding: .5rem;
+    cursor: pointer;
+
+}
+.details{
+    margin-top: 1.2rem;
+    font-size: 1.1rem;
+}
+button{
+    margin: .3rem auto;
+    font-weight: bold;
+    border-radius: .3rem;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 1.2rem;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: red;
+    transition: .4s;
+}
+a:hover{
+    color: green;
+}

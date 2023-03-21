@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7c97db1c99.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+    <main class="container">
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+        <div class="game-container">
+            <p class="comp">Comp : <span id="computer-id">0</span></p>
+            <p class="user">User : <span id="user-id">0</span></p>
+            <button onclick="resetGame()">Reset</button>
+        </div>
+
+        <div class="rows-icon">
+            <div class="row" id="rock">
+                <i class="fa-regular fa-hand-back-fist"></i>
+            </div>
+            <div class="row" id="paper">
+                <i class="fa-regular fa-hand"></i>
+            </div>
+            <div class="row" id="scissor">
+                <i class="fa-regular fa-hand-scissors"></i>
+            </div>
+        </div>
+        <div class="details">
+            <div class="computer-detail"></div>
+            <div class="user-detail"></div>
+            <div class="winner-detail"></div>
+        </div>
+        <footer>
+            Coded By <a href="https://twitter.com/Abdoul_2023">Abdoul</a>
+        </footer>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
